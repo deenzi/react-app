@@ -9,7 +9,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <div>
           <p>
-         Hello! <Weather/>
+         Hello! lets deploy <Weather/>
         </p>
         </div>
 
