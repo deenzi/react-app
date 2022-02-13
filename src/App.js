@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Weather from "./Weather";
+import WeatherSearch from "./WeatherSearch";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
           <p>
          Hello! lets deploy 
          <Weather/>
+         <WeatherSearch/>
         </p>
         </div>
 
