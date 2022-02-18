@@ -1,19 +1,22 @@
 import logo from './logo.svg';
 import './App.css';
-import Weather from "./Weather";
-import WeatherSearch from "./WeatherSearch";
+import Weather from "./Search";
+import Header from "./Header";
+import Forecast from "./Forecast";
+import "./sun1.jpg";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+      
         <div>
           <p>
-         Hello! lets deploy this
          <p>WEATHER APP</p>
+         <Header/>
          <Weather/>
-         <WeatherSearch/>
+         <Forecast/>
+       
         </p>
         </div>
 

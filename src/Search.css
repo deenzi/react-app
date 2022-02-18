@@ -1,0 +1,17 @@
+form {
+  position: relative;
+  left: 5px;
+}
+
+ul {
+  font-size: 15px;
+  text-align: right;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+li {
+  text-align: right;
+  text-decoration: none;
+  font-size: 15px;
+}

@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
+import "./Search.css";
 
 export default function Search() {
   const [city, setCity] = useState(null);
@@ -39,6 +40,7 @@ export default function Search() {
           <input type="search" onChange={changeCity} />
           <input type="submit" value="GO!" />
           <br />
+          <br />
           <ul>
             <li>Temperature: {Math.round(temperature)} C°</li>
             <li>Humidity: {humidity} %</li>
@@ -54,11 +56,13 @@ export default function Search() {
   } else {
     return (
       <div>
+        <br />
         <form onSubmit={handleSubmit}>
-          <input type="search" onChange={changeCity} />
+          <input type="search" placeholder=" What's your city? 🤍" onChange={changeCity} />
           <input type="submit" value="GO!" />
           <br />
         </form>
+        <br />
       </div>
     );
   }
